@@ -1,0 +1,31 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:48:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:48:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:48:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:49:06] "GET /search/?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:49:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Поиск еда
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:55:19] "GET /search/?s=еда HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:55:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:58:08] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:58:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:file  является не допустимым
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:58:10] "POST /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 16:58:12] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:file РўРµРєСЃС‚РѕРІС‹Р№ РґРѕРєСѓРјРµРЅС‚.txt СЏРІР»СЏРµС‚СЃСЏ РЅРµ РґРѕРїСѓСЃС‚РёРјС‹Рј
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 17:00:13] "POST /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 17:00:17] "GET /post/ HTTP/1.1" 200 -
+INFO:root:РџРѕРёСЃРє РµРґР°
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 17:00:45] "GET /search/?s=РµРґР° HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [25/Dec/2022 17:00:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
